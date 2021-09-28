@@ -1,0 +1,6 @@
+module Pods_MyAutoCare_MyAutoCareTests {
+  umbrella header "Pods-MyAutoCare-MyAutoCareTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
