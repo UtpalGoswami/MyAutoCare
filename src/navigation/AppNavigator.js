@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Image, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from "@react-navigation/stack";
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import AntDesign from 'react-native-vector-icons/AntDesign';
 import {
   Home,
   Profile,
@@ -23,10 +23,8 @@ export default function MyTabs() {
     <View style={styles.container}>
       <Tab.Navigator
         initialRouteName="Home"
-        tabBarOptions={{
-          activeTintColor: '#e91e63',
-        }}
         screenOptions={{
+          activeTintColor: '#e91e63',
           style: {
             paddingVertical: 20,
           }
@@ -38,7 +36,7 @@ export default function MyTabs() {
           options={{
             title: 'Home',
             tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="home" color={color} size={size} />
+              <AntDesign name="home" color={color} size={size} />
             ),
             // tabBarIcon: ({ size, focused, color }) => {
             //   return (
@@ -55,7 +53,7 @@ export default function MyTabs() {
           options={{
             title: 'Setting',
             tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="setting" color={color} size={size} />
+              <AntDesign name="setting" color={color} size={size} />
             ),
             // tabBarIcon: ({ size, focused, color }) => {
             //   return (
@@ -72,7 +70,7 @@ export default function MyTabs() {
           options={{
             title: 'Profile',
             tabBarIcon: ({ color, size }) => (
-              <MaterialCommunityIcons name="account" color={color} size={size} />
+              <AntDesign name="user" color={color} size={size} />
             ),
           }} />
       </Tab.Navigator>
