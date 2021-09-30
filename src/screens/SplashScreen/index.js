@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, TouchableOpacity, StatusBar, SafeAreaView } from 'react-native';
+import { View, Text, StatusBar, SafeAreaView } from 'react-native';
 
 /**
  * @class SplashScreen

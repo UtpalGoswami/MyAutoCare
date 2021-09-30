@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, Image, View } from 'react-native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from "@react-navigation/stack";
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import {
   Home,
   Profile,
@@ -21,6 +22,10 @@ export default function MyTabs() {
   return (
     <View style={styles.container}>
       <Tab.Navigator
+        initialRouteName="Home"
+        tabBarOptions={{
+          activeTintColor: '#e91e63',
+        }}
         screenOptions={{
           style: {
             paddingVertical: 20,
@@ -32,6 +37,9 @@ export default function MyTabs() {
           component={Home}
           options={{
             title: 'Home',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="home" color={color} size={size} />
+            ),
             // tabBarIcon: ({ size, focused, color }) => {
             //   return (
             //     <Image
@@ -46,6 +54,9 @@ export default function MyTabs() {
           component={Setting}
           options={{
             title: 'Setting',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="setting" color={color} size={size} />
+            ),
             // tabBarIcon: ({ size, focused, color }) => {
             //   return (
             //     <Image
@@ -60,6 +71,9 @@ export default function MyTabs() {
           component={Profile}
           options={{
             title: 'Profile',
+            tabBarIcon: ({ color, size }) => (
+              <MaterialCommunityIcons name="account" color={color} size={size} />
+            ),
           }} />
       </Tab.Navigator>
     </View>

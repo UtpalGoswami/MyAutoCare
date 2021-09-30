@@ -11,9 +11,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		20BF4F73088E4522174B2C1D /* libPods-MyAutoCare-MyAutoCareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FBA501B7E9D74870092DB731 /* libPods-MyAutoCare-MyAutoCareTests.a */; };
+		221085E704D32A84F391BFB5 /* libPods-MyAutoCare-MyAutoCareTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B15AEF4136F9E3493C046D0 /* libPods-MyAutoCare-MyAutoCareTests.a */; };
+		2DDEF34BA0100938089E5CC0 /* libPods-MyAutoCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E83164C9384B10B4AAF3430 /* libPods-MyAutoCare.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		B041D2FE8E8D9B05118C1DC7 /* libPods-MyAutoCare.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 94C170FC05AE53DFBF710A16 /* libPods-MyAutoCare.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +30,20 @@
 		00E356EE1AD99517003FC87E /* MyAutoCareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAutoCareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* MyAutoCareTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAutoCareTests.m; sourceTree = "<group>"; };
-		02A3CE1A47EC6D89B6953C6A /* Pods-MyAutoCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare.debug.xcconfig"; path = "Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* MyAutoCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyAutoCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = MyAutoCare/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = MyAutoCare/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MyAutoCare/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MyAutoCare/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MyAutoCare/main.m; sourceTree = "<group>"; };
+		26CFD5566412CD4BD45F13DF /* Pods-MyAutoCare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare.debug.xcconfig"; path = "Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare.debug.xcconfig"; sourceTree = "<group>"; };
+		4A06CF4A8DF010B2953A7C11 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare-MyAutoCareTests.release.xcconfig"; path = "Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		6B15AEF4136F9E3493C046D0 /* libPods-MyAutoCare-MyAutoCareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAutoCare-MyAutoCareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = MyAutoCare/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89840582E1331AA0473F88D0 /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig"; sourceTree = "<group>"; };
-		94C170FC05AE53DFBF710A16 /* libPods-MyAutoCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAutoCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9938B0D1BDAC37BAF6FC26AE /* Pods-MyAutoCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare.release.xcconfig"; path = "Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare.release.xcconfig"; sourceTree = "<group>"; };
-		E89067C53A3978C7E907D598 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare-MyAutoCareTests.release.xcconfig"; path = "Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E83164C9384B10B4AAF3430 /* libPods-MyAutoCare.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAutoCare.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C2E9CE35A562D706A9A3A2C /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		FBA501B7E9D74870092DB731 /* libPods-MyAutoCare-MyAutoCareTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyAutoCare-MyAutoCareTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CF1E652FD8A7B1B1B8C877 /* Pods-MyAutoCare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAutoCare.release.xcconfig"; path = "Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20BF4F73088E4522174B2C1D /* libPods-MyAutoCare-MyAutoCareTests.a in Frameworks */,
+				221085E704D32A84F391BFB5 /* libPods-MyAutoCare-MyAutoCareTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,7 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B041D2FE8E8D9B05118C1DC7 /* libPods-MyAutoCare.a in Frameworks */,
+				2DDEF34BA0100938089E5CC0 /* libPods-MyAutoCare.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,13 +83,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		0703FFF6B527F6C9E6BC112A /* Pods */ = {
+		026EF831D2F2F536C7D052F4 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				02A3CE1A47EC6D89B6953C6A /* Pods-MyAutoCare.debug.xcconfig */,
-				9938B0D1BDAC37BAF6FC26AE /* Pods-MyAutoCare.release.xcconfig */,
-				89840582E1331AA0473F88D0 /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */,
-				E89067C53A3978C7E907D598 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */,
+				26CFD5566412CD4BD45F13DF /* Pods-MyAutoCare.debug.xcconfig */,
+				F0CF1E652FD8A7B1B1B8C877 /* Pods-MyAutoCare.release.xcconfig */,
+				9C2E9CE35A562D706A9A3A2C /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */,
+				4A06CF4A8DF010B2953A7C11 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */,
 			);
 			name = Pods;
 			path = Pods;
@@ -112,8 +112,8 @@
 			isa = PBXGroup;
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				94C170FC05AE53DFBF710A16 /* libPods-MyAutoCare.a */,
-				FBA501B7E9D74870092DB731 /* libPods-MyAutoCare-MyAutoCareTests.a */,
+				8E83164C9384B10B4AAF3430 /* libPods-MyAutoCare.a */,
+				6B15AEF4136F9E3493C046D0 /* libPods-MyAutoCare-MyAutoCareTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,7 +133,8 @@
 				00E356EF1AD99517003FC87E /* MyAutoCareTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				0703FFF6B527F6C9E6BC112A /* Pods */,
+				9273901B6FEA4EC28AE07A88 /* Resources */,
+				026EF831D2F2F536C7D052F4 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +150,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		9273901B6FEA4EC28AE07A88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -156,12 +165,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "MyAutoCareTests" */;
 			buildPhases = (
-				F6FB85EC753461C55271E8ED /* [CP] Check Pods Manifest.lock */,
+				0143CB424E23857645ED771E /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
-				5FBF4A26D636C9CFBD408FAE /* [CP] Embed Pods Frameworks */,
-				92AA76183097FE4029F504F1 /* [CP] Copy Pods Resources */,
+				6DEC5E100C733B6E1BA9C233 /* [CP] Embed Pods Frameworks */,
+				D61DBDA5A440371050DFEA14 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -177,14 +186,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "MyAutoCare" */;
 			buildPhases = (
-				7C4BF0F3897AB878011C83E5 /* [CP] Check Pods Manifest.lock */,
+				FC41B4A2A4B97A59A0E0B527 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
-				4DD943A6C5E4829C4F486370 /* [CP] Embed Pods Frameworks */,
-				86B7DFF782E43A1B5FB3498D /* [CP] Copy Pods Resources */,
+				A0EA46E6649DBE4BD37589D1 /* [CP] Embed Pods Frameworks */,
+				91CCF48A84E7AF16B81DB35B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,24 +274,29 @@
 			shellPath = /bin/sh;
 			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
 		};
-		4DD943A6C5E4829C4F486370 /* [CP] Embed Pods Frameworks */ = {
+		0143CB424E23857645ED771E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyAutoCare-MyAutoCareTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5FBF4A26D636C9CFBD408FAE /* [CP] Embed Pods Frameworks */ = {
+		6DEC5E100C733B6E1BA9C233 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,29 +313,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7C4BF0F3897AB878011C83E5 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyAutoCare-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		86B7DFF782E43A1B5FB3498D /* [CP] Copy Pods Resources */ = {
+		91CCF48A84E7AF16B81DB35B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,7 +330,24 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		92AA76183097FE4029F504F1 /* [CP] Copy Pods Resources */ = {
+		A0EA46E6649DBE4BD37589D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare/Pods-MyAutoCare-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D61DBDA5A440371050DFEA14 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +364,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyAutoCare-MyAutoCareTests/Pods-MyAutoCare-MyAutoCareTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F6FB85EC753461C55271E8ED /* [CP] Check Pods Manifest.lock */ = {
+		FC41B4A2A4B97A59A0E0B527 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,7 +379,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MyAutoCare-MyAutoCareTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-MyAutoCare-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -429,7 +438,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89840582E1331AA0473F88D0 /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */;
+			baseConfigurationReference = 9C2E9CE35A562D706A9A3A2C /* Pods-MyAutoCare-MyAutoCareTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -456,7 +465,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E89067C53A3978C7E907D598 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */;
+			baseConfigurationReference = 4A06CF4A8DF010B2953A7C11 /* Pods-MyAutoCare-MyAutoCareTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -480,7 +489,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 02A3CE1A47EC6D89B6953C6A /* Pods-MyAutoCare.debug.xcconfig */;
+			baseConfigurationReference = 26CFD5566412CD4BD45F13DF /* Pods-MyAutoCare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -506,7 +515,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9938B0D1BDAC37BAF6FC26AE /* Pods-MyAutoCare.release.xcconfig */;
+			baseConfigurationReference = F0CF1E652FD8A7B1B1B8C877 /* Pods-MyAutoCare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
