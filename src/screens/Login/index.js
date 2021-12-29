@@ -10,7 +10,7 @@ export default Login = ({ navigation }) => {
     return (
         <SafeAreaView style={{ flex: 1, paddingTop: StatusBar.currentHeight }}>
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
-                <Text style={{fontSize:10}}>Login</Text>
+                <Text>Login</Text>
             </View>
         </SafeAreaView>
 
