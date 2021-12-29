@@ -16,7 +16,7 @@ export default function* loginAsync(action) {
     yield put(loginActions.enableLoader());
 
     // Calling function for API
-    const response = yield fork(signIn, action.email, action.password);
+    const response = yield call(signIn, action.email, action.password);
     // console.log('function*loginAsync :: response : ', response)
 
     if (response) {
